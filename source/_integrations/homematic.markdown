@@ -317,7 +317,7 @@ Set boolean variable to true:
 ...
 action:
   service: homematic.set_variable_value
-  data:
+  service_data:
     entity_id: homematic.ccu2
     name: Variablename
     value: true
